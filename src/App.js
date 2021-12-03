@@ -1,9 +1,10 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// note: make sure to exit server and then re-'yarn start' after importing relative files
+// note: make sure to exit server and then re-'yarn start' after importing relative files, like the one above
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <h2>Portfolio App</h2>;
+  return <Navbar />;
 }
 
 export default App;
